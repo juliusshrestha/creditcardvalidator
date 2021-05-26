@@ -1,12 +1,11 @@
-apiVersion : backstage.io/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: services-creditcard-validator
-  description: app that validates creditcard.
-  tags:
-    -java
+  name: credicard-validator
+  description: A credicard validation application.
+
 spec:
-  type: service
-  lifecycle: experimental
+  type: Services
   owner: juliusshrestha29@gmail.com
-  
+  lifecycle: experimental
+
