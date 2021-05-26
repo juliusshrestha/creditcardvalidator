@@ -1,0 +1,12 @@
+apiVersion : backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: services-creditcard-validator
+  description: app that validates creditcard.
+  tags:
+    -java
+spec:
+  type: service
+  lifecycle: experimental
+  owner: juliusshrestha29@gmail.com
+  
