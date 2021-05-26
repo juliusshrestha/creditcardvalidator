@@ -5,7 +5,7 @@ metadata:
   description: A credicard validation application.
 
 spec:
-  type: Services
+  type: service
   owner: juliusshrestha29@gmail.com
   lifecycle: experimental
 
