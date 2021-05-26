@@ -3,7 +3,8 @@ kind: Component
 metadata:
   name: credicard-validator
   description: A credicard validation application.
-
+Annotation:
+  circleci.com/project-slug: github/juliusshrestha/creditcardvalidator
 spec:
   type: service
   owner: juliusshrestha29@gmail.com
