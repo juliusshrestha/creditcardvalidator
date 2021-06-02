@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: backstage-demo
+  description: The Spotify web API
+  tags:
+    - backstage
+    - rest
+  annotations:
+    # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
+    backstage.io/definition-at-location: 'url:https://raw.githubusercontent.com/APIs-guru/openapi-directory/master/APIs/spotify.com/v1/swagger.yaml'
+spec:
+  type: openapi
+  lifecycle: production
+  owner: terakoya
+  definition:
+    $text: https://github.com/juliusshrestha/creditcardvalidator/blob/master/juliusshrestha-backstage-1.0.0-resolved.yaml
