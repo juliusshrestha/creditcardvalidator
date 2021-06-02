@@ -13,4 +13,4 @@ spec:
   lifecycle: production
   owner: terakoya
   definition:
-    $text: https://github.com/juliusshrestha/creditcardvalidator/blob/master/juliusshrestha-backstage-1.0.0-resolved.yaml
+    $text: https://app.swaggerhub.com/apis/juliusshrestha/backstage/1.0.0
