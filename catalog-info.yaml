@@ -9,4 +9,6 @@ spec:
   type: service
   owner: juliusshrestha29@gmail.com
   lifecycle: experimental
+   providesApis:
+    - backstage-demo
 
