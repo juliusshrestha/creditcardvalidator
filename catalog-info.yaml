@@ -5,7 +5,6 @@ metadata:
   description: A credicard validation application.
   annotation:
     circleci.com/project-slug: github/juliusshrestha/creditcardvalidator
-
  spec:
   type: service
   owner: juliusshrestha29@gmail.com
